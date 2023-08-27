@@ -47,9 +47,8 @@
     <!-- Main Wrapper Start Here -->
     <div class="wrapper">
         <!-- Header Area Start Here -->
-        <header class="absolute-header header-area  header-sticky">
-            <div class="container-fluid">
-
+        <header class="header-area header-style-four header-sticky">
+            <div class="container">
 
                 <div class="row align-items-center">
                     <!-- Logo Start -->
@@ -61,7 +60,7 @@
                         </div>
                     </div>
                     <!-- Logo End -->
-                    <!-- Menu Area Start Here -->
+
                     <div class="col-xl-8 col-lg-8 d-none d-lg-block">
                         <nav>
                             <ul class="header-menu-list text-center">
@@ -111,7 +110,7 @@
                                 <li class="static_class">
                                     <a class="drop-icon" href="shop.html">All Pages</a>
                                     <!--  Mega-Menu Start -->
-                                    <ul class="common_ddown megamenu">
+                                    <ul class="common_ddown megamenu mega_style_2">
                                         <!-- Single Column Start -->
                                         <li>
                                             <ul>
@@ -175,6 +174,7 @@
                                                 <li>
                                                     <a href="product-details.html">Product Details</a>
                                                 </li>
+
                                             </ul>
                                         </li>
                                         <!-- Single Column End -->
@@ -201,7 +201,7 @@
                                         </li>
                                         <!-- Single Column End -->
 
-                                        <li class="mega_img"><a href="#"><img src="img/banner/mega_menu_2.png"
+                                        <li class="mega_img"><a href="#"><img src="img/banner/mega_menu.png"
                                                     alt="mega_menu"></a></li>
 
                                     </ul>
@@ -236,11 +236,10 @@
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="about.html">about us</a></li>
                                 <li><a href="contact.html">Contact us</a></li>
-
                             </ul>
                         </nav>
                     </div>
-                    <!-- Menu Area End Here -->
+
                     <!-- Cart Box Start Here -->
                     <div class="col-xl-2 col-lg-2 col-6">
                         <div class="cart-box">
@@ -546,7 +545,6 @@
                     </nav>
                 </div>
                 <!-- Mobile Menu End Here -->
-
 
             </div>
             <!-- Container End -->
