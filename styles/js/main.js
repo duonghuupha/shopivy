@@ -75,7 +75,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
     $('.main-slider-active').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 5000,
         dots: false,
         rows: 1,
@@ -421,7 +421,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
     $('.promotion_slider_active').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         dots: true,
         rows: 1,
@@ -548,7 +548,7 @@ NOTE: main.js, All custom script and plugin activation script in this file.
     $('.promotion-slider-active').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         dots: true,
         arrows: false,

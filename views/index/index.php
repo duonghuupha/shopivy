@@ -1,6 +1,50 @@
+<!-- Slider Area Start -->
+<div class="slider-area slider_common_style default_arrow">
+    <!-- Slider Area Start Here -->
+    <div class="main-slider-active">
+        <!-- Start Single Slide -->
+        <div class="single-slide slider_animate_style-01">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img src="<?php echo URL.'/styles/'?>img/slider/full_slider_6.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Slide -->
+        <!-- Start Single Slide -->
+        <div class="single-slide slider_animate_style-02">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img src="<?php echo URL.'/styles/'?>img/slider/full_slider_1.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Slide -->
+        <!-- Start Single Slide -->
+        <div class="single-slide slider_animate_style-02">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img src="<?php echo URL.'/styles/'?>img/slider/full_slider_2.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Single Slide -->
+    </div>
+    <!-- Slider Area End Here -->
+</div>
+<!-- Slider Area End -->
+
+
 <!-- Promotion Section Start Here -->
 <div class="product_promoton_area adp_top adp_bottom">
     <div class="container">
+
         <!-- Single Promoton Wapper -->
         <div class="promotion-wrapper promotion_slider_active default_dot_style">
 
