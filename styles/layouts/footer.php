@@ -1,7 +1,7 @@
         <!-- Footer Area Start Here -->
         <footer>
             <div class="footer_area_wrapper footer_color_bg footer_image_bg"
-                style="background: url(<?php echo URL.'/styles/'?>img/bg/footer_bg.jpg)">
+                style="background: url(img/bg/footer_bg.jpg)">
                 <div class="container">
                     <!-- Footer Middle Start -->
                     <div class="footer-top adp_top adp_bottom">
@@ -51,23 +51,23 @@
                                     <h4 class="footer-title">Instagram Gallery</h4>
                                     <div class="footer-content">
                                         <ul class="instagram-img">
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_1.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_1.jpg" alt="instagram-img"></a>
+                                            <li><a class="img-popup" href="img/portfolio/inst_port_1.jpg"><img
+                                                        src="img/portfolio/inst_port_1.jpg" alt="instagram-img"></a>
                                             </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_2.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_2.jpg" alt="instagram-img"></a>
+                                            <li><a class="img-popup" href="img/portfolio/inst_port_2.jpg"><img
+                                                        src="img/portfolio/inst_port_2.jpg" alt="instagram-img"></a>
                                             </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_3.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_3.jpg" alt="instagram-img"></a>
+                                            <li><a class="img-popup" href="img/portfolio/inst_port_3.jpg"><img
+                                                        src="img/portfolio/inst_port_3.jpg" alt="instagram-img"></a>
                                             </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_4.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_4.jpg" alt="instagram-img"></a>
+                                            <li><a class="img-popup" href="img/portfolio/inst_port_4.jpg"><img
+                                                        src="img/portfolio/inst_port_4.jpg" alt="instagram-img"></a>
                                             </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_5.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_5.jpg" alt="instagram-img"></a>
+                                            <li><a class="img-popup" href="img/portfolio/inst_port_5.jpg"><img
+                                                        src="img/portfolio/inst_port_5.jpg" alt="instagram-img"></a>
                                             </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_6.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_6.jpg" alt="instagram-img"></a>
+                                            <li><a class="img-popup" href="img/portfolio/inst_port_6.jpg"><img
+                                                        src="img/portfolio/inst_port_6.jpg" alt="instagram-img"></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -93,8 +93,8 @@
                                             <h6>Download our Mobile Apps</h6>
                                         </div>
                                         <div class="apps_download">
-                                            <a href="#"><img src="<?php echo URL.'/styles/'?>img/icons/play-store.png" alt="Play Store"></a>
-                                            <a href="#"><img src="<?php echo URL.'/styles/'?>img/icons/app-store.png" alt="Apple Store"></a>
+                                            <a href="#"><img src="img/icons/play-store.png" alt="Play Store"></a>
+                                            <a href="#"><img src="img/icons/app-store.png" alt="Apple Store"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="support_pay text-end">
-                                    <a href="#"><img src="<?php echo URL.'/styles/'?>img/icons/payments.png" alt="Payments"></a>
+                                    <a href="#"><img src="img/icons/payments.png" alt="Payments"></a>
                                 </div>
                             </div>
                         </div>
@@ -160,16 +160,16 @@
                                             <div class="product-details-img">
                                                 <div class="tab-content main_large_img product-details-large">
                                                     <div id="shop-details-1" class="tab-pane large-img-style">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p1.jpg" alt="">
+                                                        <img src="img/products/p1.jpg" alt="">
                                                     </div>
                                                     <div id="shop-details-2" class="tab-pane active large-img-style">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p2.jpg" alt="">
+                                                        <img src="img/products/p2.jpg" alt="">
                                                     </div>
                                                     <div id="shop-details-3" class="tab-pane large-img-style">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p3.jpg" alt="">
+                                                        <img src="img/products/p3.jpg" alt="">
                                                     </div>
                                                     <div id="shop-details-4" class="tab-pane large-img-style">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p4.jpg" alt="">
+                                                        <img src="img/products/p4.jpg" alt="">
                                                     </div>
 
                                                     <span class="sticker-sale">-25%</span>
@@ -180,19 +180,19 @@
                                                 <div class="shop-details-tab nav product-details-small">
                                                     <a class="shop-details-overly" href="#shop-details-1"
                                                         data-bs-toggle="tab">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p1.jpg" alt="">
+                                                        <img src="img/products/p1.jpg" alt="">
                                                     </a>
                                                     <a class="shop-details-overly active" href="#shop-details-2"
                                                         data-bs-toggle="tab">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p2.jpg" alt="">
+                                                        <img src="img/products/p2.jpg" alt="">
                                                     </a>
                                                     <a class="shop-details-overly" href="#shop-details-3"
                                                         data-bs-toggle="tab">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p3.jpg" alt="">
+                                                        <img src="img/products/p3.jpg" alt="">
                                                     </a>
                                                     <a class="shop-details-overly" href="#shop-details-4"
                                                         data-bs-toggle="tab">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p4.jpg" alt="">
+                                                        <img src="img/products/p4.jpg" alt="">
                                                     </a>
                                                 </div>
 
@@ -308,7 +308,7 @@
 
                                             <div class="secure_pay">
                                                 <h6>Guaranteed safe Pay :</h6>
-                                                <img src="<?php echo URL.'/styles/'?>img/icons/secure_pay.jpg" alt="single-product">
+                                                <img src="img/icons/secure_pay.jpg" alt="single-product">
                                             </div>
 
 
@@ -332,23 +332,23 @@
         <!-- Main Wrapper End Here -->
 
         <!-- jquery 3.3.1 -->
-        <script src="<?php echo URL.'/styles/'?>js/vendor/jquery-3.3.1.min.js"></script>
+        <script src="js/vendor/jquery-3.3.1.min.js"></script>
         <!-- Mobile menu js -->
-        <script src="<?php echo URL.'/styles/'?>js/jquery.meanmenu.min.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
         <!-- ScrollUp js -->
-        <script src="<?php echo URL.'/styles/'?>js/jquery.scrollUp.js"></script>
+        <script src="js/jquery.scrollUp.js"></script>
         <!-- Jquery nice select js -->
-        <script src="<?php echo URL.'/styles/'?>js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
         <!-- Jquery ui price slider js -->
-        <script src="<?php echo URL.'/styles/'?>js/jquery-ui.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
         <!-- Bootstrap popper js -->
-        <script src="<?php echo URL.'/styles/'?>js/popper.min.js"></script>
+        <script src="js/popper.min.js"></script>
         <!-- Bootstrap js -->
-        <script src="<?php echo URL.'/styles/'?>js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <!-- Plugin js -->
-        <script src="<?php echo URL.'/styles/'?>js/plugins.js"></script>
+        <script src="js/plugins.js"></script>
         <!-- Main activaion js -->
-        <script src="<?php echo URL.'/styles/'?>js/main.js"></script>
+        <script src="js/main.js"></script>
 
         </body>
 

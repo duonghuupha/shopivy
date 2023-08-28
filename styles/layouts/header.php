@@ -4,38 +4,39 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Shop::Trung tâm thú cung IVYVET</title>
+    <title>Home || animart pet shop, pet shitter, pet food, pet care bootstrap 5 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo URL.'/styles/'?>img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png">
     <!-- icofont css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/icofont.css">
+    <link rel="stylesheet" href="css/icofont.css">
     <!-- Animate css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/animate.css">
+    <link rel="stylesheet" href="css/animate.css">
+
     <!-- Nice select css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/nice-select.css">
+    <link rel="stylesheet" href="css/nice-select.css">
     <!-- Jquery fancybox css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
     <!-- Jquery ui price slider css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <!-- Meanmenu css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/meanmenu.min.css">
+    <link rel="stylesheet" href="css/meanmenu.min.css">
     <!-- Slick carousel css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/slick-slider.css">
+    <link rel="stylesheet" href="css/slick-slider.css">
     <!-- Bootstrap css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custom css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/default.css">
+    <link rel="stylesheet" href="css/default.css">
     <!-- Plugins css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/plugins.css">
+    <link rel="stylesheet" href="css/plugins.css">
     <!-- Main css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="<?php echo URL.'/styles/'?>css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Modernizer js -->
-    <script src="<?php echo URL.'/styles/'?>js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 
 <body>
@@ -54,7 +55,7 @@
                     <div class="col-xl-2 col-lg-2 col-6">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="<?php echo URL.'/styles/'?>img/logo/logo2.png" alt="logo-image">
+                                <img src="img/logo/logo2.png" alt="logo-image">
                             </a>
                         </div>
                     </div>
@@ -200,7 +201,7 @@
                                         </li>
                                         <!-- Single Column End -->
 
-                                        <li class="mega_img"><a href="#"><img src="<?php echo URL.'/styles/'?>img/banner/mega_menu.png"
+                                        <li class="mega_img"><a href="#"><img src="img/banner/mega_menu.png"
                                                     alt="mega_menu"></a></li>
 
                                     </ul>
@@ -265,7 +266,7 @@
                                             <div class="single-cart-box">
                                                 <div class="cart-img">
                                                     <a href="#">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p1.jpg" alt="cart-image">
+                                                        <img src="img/products/p1.jpg" alt="cart-image">
                                                     </a>
                                                 </div>
                                                 <div class="cart-content">
@@ -284,7 +285,7 @@
                                             <div class="single-cart-box">
                                                 <div class="cart-img">
                                                     <a href="#">
-                                                        <img src="<?php echo URL.'/styles/'?>img/products/p2.jpg" alt="cart-image">
+                                                        <img src="img/products/p2.jpg" alt="cart-image">
                                                     </a>
                                                 </div>
                                                 <div class="cart-content">
