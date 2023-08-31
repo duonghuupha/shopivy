@@ -43,7 +43,7 @@
                     <div class="col-xl-2 col-lg-2 col-6">
                         <div class="logo">
                             <a href="#">
-                                <img src="<?php echo URL.'/styles/'?>img/logo/Logo.png" alt="logo-image">
+                                <img src="<?php echo URL.'/styles/'?>img/logo/Logo1.png" alt="logo-image">
                             </a>
                         </div>
                     </div>
