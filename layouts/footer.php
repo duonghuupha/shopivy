@@ -6,20 +6,27 @@
                     <!-- Footer Middle Start -->
                     <div class="footer-top adp_top adp_bottom">
                         <div class="row">
-
                             <!-- Single Footer Start -->
                             <div class="col-lg-4 col-md-6">
                                 <div class="footer_widget">
-                                    <h4 class="footer-title">Contact Us</h4>
+                                    <h4 class="footer-title">Liên hệ</h4>
                                     <div class="footer-content">
-                                        <p>Lorem Ipsum is simply dummy text printing.</p>
+                                        <p>Trung tâm thú cưng IVYVET</p>
                                         <ul class="footer_contact">
-                                            <li><i class="icofont-home"></i><span>Address :</span> Unkisn, New York, USA
-                                                - 23584</li>
-                                            <li><i class="icofont-ui-dial-phone"></i><span>Phone :</span> 010 32654 8564
+                                            <li>
+                                                <i class="icofont-home"></i>
+                                                <span>Địa chỉ :</span> 41, Đào Xuyên, Đa Tốn, Gia Lâm, HN
                                             </li>
-                                            <li><i class="icofont-fax"></i><span>FAX :</span> 003 85648 158954</li>
-                                            <li><i class="icofont-email"></i><span>Email :</span> support@example.com
+                                            <li>
+                                                <i class="icofont-ui-dial-phone"></i>
+                                                <span>Điện thoại :</span> 0349 697 096
+                                            </li>
+                                            <li>
+                                                <i class="icofont-fax"></i>
+                                                <span>Hotline :</span> 0899 315 115</li>
+                                            <li>
+                                                <i class="icofont-email"></i>
+                                                <span>Email :</span> pktyivyvet@gmail.com
                                             </li>
                                         </ul>
                                     </div>
@@ -30,15 +37,15 @@
                             <!-- Single Footer Start -->
                             <div class="col-lg-2 col-md-6">
                                 <div class="footer_widget">
-                                    <h4 class="footer-title">Infomation</h4>
+                                    <h4 class="footer-title">Thông tin</h4>
                                     <div class="footer-content">
                                         <ul class="footer-list">
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Terms & Conditions</a></li>
-                                            <li><a href="#">Shipping Policies</a></li>
-                                            <li><a href="#">Term & Conditions</a></li>
+                                            <li><a href="#">Về chúng tôi</a></li>
+                                            <li><a href="#">Liên hệ</a></li>
+                                            <li><a href="#">Chính sách bảo mật</a></li>
+                                            <li><a href="#">Điều khoản và điều kiện</a></li>
+                                            <li><a href="#">Chính sách vận chuyển</a></li>
+                                            <li><a href="#">Chính sách đổi trả</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -48,71 +55,63 @@
                             <!-- Single Footer Start -->
                             <div class="col-lg-3 col-md-6">
                                 <div class="footer_widget">
-                                    <h4 class="footer-title">Instagram Gallery</h4>
+                                    <h4 class="footer-title">Thư viện ảnh</h4>
                                     <div class="footer-content">
                                         <ul class="instagram-img">
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_1.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_1.jpg" alt="instagram-img"></a>
+                                            <?php
+                                            for($i = 1; $i <= 6; $i++){
+                                            ?>
+                                            <li>
+                                                <a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_<?php echo $i ?>.jpg">
+                                                    <img  src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_<?php echo $i ?>.jpg" alt="instagram-img">
+                                                </a>
                                             </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_2.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_2.jpg" alt="instagram-img"></a>
-                                            </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_3.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_3.jpg" alt="instagram-img"></a>
-                                            </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_4.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_4.jpg" alt="instagram-img"></a>
-                                            </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_5.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_5.jpg" alt="instagram-img"></a>
-                                            </li>
-                                            <li><a class="img-popup" href="<?php echo URL.'/styles/'?>img/portfolio/inst_port_6.jpg"><img
-                                                        src="<?php echo URL.'/styles/'?>img/portfolio/inst_port_6.jpg" alt="instagram-img"></a>
-                                            </li>
+                                            <?php
+                                            }
+                                            ?>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Single Footer Start -->
-
-                            <!-- Single Footer Start -->
                             <div class="col-lg-3 col-md-6">
                                 <div class="footer_widget">
-                                    <h4 class="footer-title">Newsletter With Apps</h4>
-                                    <p>Lorem Ipsum is simply dummy text.</p>
+                                    <h4 class="footer-title">Đăng ký nhận bản tin</h4>
+                                    <p>Khi có sản phẩm mới hoặc khuyến mại.</p>
                                     <div class="subscribtion_form">
-                                        <form action="#" method="post">
-                                            <input type="email" name="mail" class="form-control mail"
-                                                placeholder="Your E-mail Addrees">
-                                            <button type="submit" class="submit"><i
-                                                    class="icofont-long-arrow-right"></i></button>
+                                        <form method="post">
+                                            <input type="email"
+                                                name="mail" 
+                                                class="form-control mail"
+                                                placeholder="Địa chỉ email của bạn">
+                                            <button type="button" class="submit">
+                                                <i class="icofont-long-arrow-right"></i>
+                                            </button>
                                         </form>
                                     </div>
                                     <div class="single_footer_apps">
                                         <div class="footer_heading">
-                                            <h6>Download our Mobile Apps</h6>
+                                            <h6>Tải ứng dụng cho thiết bị di động</h6>
                                         </div>
                                         <div class="apps_download">
-                                            <a href="#"><img src="<?php echo URL.'/styles/'?>img/icons/play-store.png" alt="Play Store"></a>
-                                            <a href="#"><img src="<?php echo URL.'/styles/'?>img/icons/app-store.png" alt="Apple Store"></a>
+                                            <a href="#">
+                                                <img src="<?php echo URL.'/styles/'?>img/icons/play-store.png" alt="Play Store">
+                                            </a>
+                                            <a href="#">
+                                                <img src="<?php echo URL.'/styles/'?>img/icons/app-store.png" alt="Apple Store">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Single Footer Start -->
-
                         </div>
-                        <!-- Row End -->
                     </div>
-                    <!-- Footer Middle End -->
                 </div>
-                <!-- Footer Bottom Start -->
                 <div class="footer-bottom ">
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-md-4">
                                 <div class="footer-copyright ">
-                                    <p>Copyright @ <a href="#">Animart </a> All Rights Reserved</p>
+                                    <p>Copyright @ <a href="#">IVYVET </a> All Rights Reserved</p>
                                 </div>
                             </div>
 
@@ -135,11 +134,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Footer Bottom End -->
             </div>
         </footer>
-        <!-- Footer Area End Here -->
-
         <!-- Quick View Content Start -->
         <div class="main-product-thumbnail quick-thumb-content">
             <div class="container">
@@ -154,7 +150,6 @@
                             <!-- Modal body -->
                             <div class="modal-body">
                                 <div class="row">
-
                                     <div class="col-lg-6 col-md-6">
                                         <div class="product-details product_details_1">
                                             <div class="product-details-img">
@@ -304,52 +299,40 @@
                                                                 class="icofont-linkedin"></i> linked</a></li>
                                                 </ul>
                                             </div>
-
-
                                             <div class="secure_pay">
                                                 <h6>Guaranteed safe Pay :</h6>
                                                 <img src="<?php echo URL.'/styles/'?>img/icons/secure_pay.jpg" alt="single-product">
                                             </div>
-
-
                                         </div>
                                     </div>
-                                    <!-- Thumbnail Description End -->
-
-
                                 </div>
-                                <!-- Row End -->
                             </div>
-                            <!-- Modal footer -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Quick View Content End -->
+    </div>
+    <!-- Main Wrapper End Here -->
+    <!-- jquery 3.3.1 -->
+    <script src="<?php echo URL.'/styles/'?>js/vendor/jquery-3.3.1.min.js"></script>
+    <!-- Mobile menu js -->
+    <script src="<?php echo URL.'/styles/'?>js/jquery.meanmenu.min.js"></script>
+    <!-- ScrollUp js -->
+    <script src="<?php echo URL.'/styles/'?>js/jquery.scrollUp.js"></script>
+    <!-- Jquery nice select js -->
+    <script src="<?php echo URL.'/styles/'?>js/jquery.nice-select.min.js"></script>
+    <!-- Jquery ui price slider js -->
+    <script src="<?php echo URL.'/styles/'?>js/jquery-ui.min.js"></script>
+    <!-- Bootstrap popper js -->
+    <script src="<?php echo URL.'/styles/'?>js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="<?php echo URL.'/styles/'?>js/bootstrap.min.js"></script>
+    <!-- Plugin js -->
+    <script src="<?php echo URL.'/styles/'?>js/plugins.js"></script>
+    <!-- Main activaion js -->
+    <script src="<?php echo URL.'/styles/'?>js/main.js"></script>
+</body>
 
-        </div>
-        <!-- Main Wrapper End Here -->
-
-        <!-- jquery 3.3.1 -->
-        <script src="<?php echo URL.'/styles/'?>js/vendor/jquery-3.3.1.min.js"></script>
-        <!-- Mobile menu js -->
-        <script src="<?php echo URL.'/styles/'?>js/jquery.meanmenu.min.js"></script>
-        <!-- ScrollUp js -->
-        <script src="<?php echo URL.'/styles/'?>js/jquery.scrollUp.js"></script>
-        <!-- Jquery nice select js -->
-        <script src="<?php echo URL.'/styles/'?>js/jquery.nice-select.min.js"></script>
-        <!-- Jquery ui price slider js -->
-        <script src="<?php echo URL.'/styles/'?>js/jquery-ui.min.js"></script>
-        <!-- Bootstrap popper js -->
-        <script src="<?php echo URL.'/styles/'?>js/popper.min.js"></script>
-        <!-- Bootstrap js -->
-        <script src="<?php echo URL.'/styles/'?>js/bootstrap.min.js"></script>
-        <!-- Plugin js -->
-        <script src="<?php echo URL.'/styles/'?>js/plugins.js"></script>
-        <!-- Main activaion js -->
-        <script src="<?php echo URL.'/styles/'?>js/main.js"></script>
-
-        </body>
-
-        </html>
+</html>
